@@ -38,7 +38,7 @@ int main() {
 
     student2 st3; // 변수 선언
     
-    st3 = st2; // st2를 st3에 복사
+    st3 = st2; // st2를 st3에 복사, call-by-reference 방식
     
     printf("\nst3.lastName = %c\n", st3.lastName); // 33번째 라인과 동일
     printf("st3.studentId = %d\n", st3.studentId); // 34번째 라인과 동일
